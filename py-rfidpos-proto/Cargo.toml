@@ -1,0 +1,31 @@
+[package]
+name = "py-rfidpos-proto"
+version = "1.0.0-alpha"
+authors = ["Aditya Kresna <aditya.kresna@outlook.co.id>"]
+edition = "2018"
+license = "MIT"
+description = "Library to read/write RFID Positioning protocol."
+
+[lib]
+name = "py_rfidpos_proto"
+crate-type = ["rlib", "cdylib", "staticlib"]
+
+[dependencies]
+rfidpos-proto = { version = "1.0.0-alpha", path = "../rfidpos-proto" }
+pyo3 = { version = "0.9.2", features = ["extension-module"] }
+
+[build-dependencies]
+cbindgen = "0.14.1"
+
+[package.metadata.maturin]
+classifier = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Rust",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS :: MacOS X",
+]
+maintainer = "Aditya Kresna"
+maintainer-email = "aditya.kresna@outlook.co.id"

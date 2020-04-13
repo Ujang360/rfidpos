@@ -1,7 +1,8 @@
 [workspace]
 members = [
     "rfidpos-proto",
-    "rfidpos-tester"
+    "py-rfidpos-proto",
+    "rfidpos-tester",
 ]
 
 [profile.dev]

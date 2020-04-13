@@ -1,2 +1,9 @@
 target/
 .vscode/
+.venv/
+venv/
+build/
+
+*.so
+*.dll
+*.a

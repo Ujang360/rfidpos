@@ -6,3 +6,4 @@ edition = "2018"
 
 [dependencies]
 rfidpos-proto = { path = "../rfidpos-proto" }
+crc16 = "0.4.0"
