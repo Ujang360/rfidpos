@@ -5,7 +5,7 @@ This is a library written in Rust for communicating with RFID Impinj via UART (a
 ## Author
 
 [Aditya Kresna](https://github.com/ujang360)
-[Abghy Ghifari](https://github.com/abghy)
+[Abghy Ghifari Fa'ad](https://github.com/abghy)
 
 ## Copyright
 
