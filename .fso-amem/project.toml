@@ -1,0 +1,6 @@
+[project]
+name = "ujang-rfidpos"
+slug = "ujang-rfidpos"
+
+[amem]
+server = "https://amem.flusci.org"
